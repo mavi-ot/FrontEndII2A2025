@@ -40,8 +40,12 @@ export default function Produtos() {
             value={busca}
             />
         {show && <div className={styles.modal}
-        onClick={() => setShow(false)}
-        ></div>}
+        onClick={() => setShow(false)}>
+
+        <CardProduto
+        nome="Teclado"
+        />
+        </div>}
         <table className={styles.tbl}>
             <thead>
                 <tr>

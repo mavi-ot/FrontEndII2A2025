@@ -5,8 +5,23 @@
 }
 
 .tbl td, .tbl.th{
-    border: 2px solid white;
+    border: 2px solid rgb(10, 1, 1);
     padding: 2px;
+}
+
+.tbl tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+
+.tbl tbody tr:nth-child(even) {
+    background-color: #e0f7fa;
+}
+
+
+.tbl tbody tr:hover {
+    background-color: #c8e6c9;
+    cursor: pointer;
 }
 
 .divTitulo {
